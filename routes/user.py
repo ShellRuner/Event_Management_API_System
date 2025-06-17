@@ -29,3 +29,4 @@ def update_user_information(user_id : int, User_update : UserUpdate):
 @user_router.delete("", status_code = 200)
 def delete_users(user_id : int):
     return user_crud.delete_users(user_id)
+
